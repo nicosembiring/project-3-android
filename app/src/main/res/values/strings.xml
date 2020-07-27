@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Project 3</string>
+    <string name="editText_Username">Username</string>
+    <string name="editText_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="editText_nama">Edit Nama</string>
+    <string name="editText_umur">Edit Umur</string>
+    <string name="editText_no_kendaraan">Edit No Kendaraan</string>
+    <string name="editText_kendaraan">Edit No Kendaraan</string>
+    <string name="editText_lahir">Edit Tanggal Lahir</string>
+    <string name="editText_notel">Edit Nomor Telepon</string>
+    <string name="editText_alamat">Edit Alamat</string>
+    <string name="button_simpan">Simpan</string>
+    <string name="textView_editnama">Nama</string>
+    <string name="textView_editumur">Umur</string>
+    <string name="textView_editlahir">Tanggal Lahir</string>
+    <string name="textView_editnotel">Nomor Telepon</string>
+    <string name="textView_editkendaraan">No Kendaraan</string>
+    <string name="textView_editalamat">Alamat</string>
+    <string name="title_template">template</string>
+    <string name="button_logout">Log Out</string>
+    <string name="access_token" translatable="false">sk.eyJ1Ijoibmljb3NlbWJpcmluZyIsImEiOiJjazNxeGVpcmYwNXg5M21xY2J4cXNreTF2In0.rQVHoloRpjq8TwYgnWPIfg</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="navigasi">Lihat Navigasi</string>
+    <string name="selesai">Selesai Pengiriman</string>
+    <string name="directions_activity_toast_message">Data Muncul</string>
+    <string name="confirmlabel">Konfirmasi Pengiriman</string>
+    <string name="inputToken">Masukan Token</string>
+    <string name="kirim">Kirim</string>
+    <string name="button_tolak">Tidak Dapat Melaksanakan Tugas</string>
+</resources>

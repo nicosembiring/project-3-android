@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:onClick="logout"
+            android:text="@string/button_logout"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton_info"
+            android:layout_width="wrap_content"
+            android:layout_height="134dp"
+            android:layout_weight="1"
+            android:onClick="pengemudi"
+            android:src="@mipmap/profile" />
+
+        <ImageButton
+            android:id="@+id/imageButton_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:onClick="barang"
+            android:src="@mipmap/truk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_tolak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:onClick="tolaktugas"
+            android:layout_gravity="bottom"
+            android:text="@string/button_tolak"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
